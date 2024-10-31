@@ -44,9 +44,6 @@
 
     <project path="system/update_engine" name="android_system_update_engine" remote="TeamWin" revision="android-11"/>
 
-    <!-- Include phh's treble repo for lptools support -->
-    <project name="leegarchat/lptools_new" path="external/lptools" revision="master" remote="github" />
-    
     <!-- Include lineage-tools for lzma support -->
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="LineageOS"
              revision="lineage-18.1"/>
